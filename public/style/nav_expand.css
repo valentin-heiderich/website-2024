@@ -1,0 +1,45 @@
+.nav-menu{
+    z-index: 3;
+    display: flex; flex-direction: row;
+    background-color: var(--color0);
+    position: absolute;
+    width: 20%; height: 2%;
+    top: 2%; left: 50%;
+    transform: translateX(-50%);
+    transform-origin: left;
+    margin:auto;
+    border: 3px solid black; border-radius: 25px;
+    transition: 0.5s;
+    content-visibility: hidden;
+    align-items: center; justify-content: center;
+    user-select: none;
+    animation: nav-menu 3s infinite;
+    box-shadow: 0 0 10px 5px var(--color1);
+}
+
+.nav-menu:hover{
+    position: absolute;
+    height: 7%;
+    border-radius: 25px;
+    animation-play-state: paused;
+    content-visibility: visible;
+    user-select: none;
+}
+
+.nav-menu__item{
+    position: relative;
+    display: flex; flex-direction: column;
+    height: 100%; width: auto;
+    margin: 10px; padding: 10px;
+    align-items: center; justify-content: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+@keyframes nav-menu{
+    0%{scale: 1;}
+    25%{scale: 1.1;}
+    50%{scale: 1;}
+    75%{scale: 1.1;}
+    100%{scale: 1;}
+}

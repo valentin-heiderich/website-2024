@@ -1,0 +1,24 @@
+.body{
+
+    --l_color0: #F2BED1;
+    --l_color1: black;
+    --l_color2: #F8E8EE;
+    --l_color3: #F9F5F6;
+
+    --d_color0: #030637;
+    --d_color1: #FCF753;
+    --d_color2: #720455;
+    --d_color3: #910A67;
+
+    --color0: var(--l_color0);
+    --color1: var(--l_color1);
+    --color2: var(--l_color2);
+    --color3: var(--l_color3);
+
+    background-color: var(--color0);
+    color: var(--color3);
+
+    --star-size: 60px;
+    --star-color: var(--color0);
+    --star-background: var(--color1);
+}
