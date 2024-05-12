@@ -1,6 +1,5 @@
 import { io } from "https://cdn.socket.io/4.7.4/socket.io.esm.min.js";
 const socket = io();
-console.log(socket);
 let links_btn = document.getElementById("links_btn");
 let home_btn = document.getElementById("home_btn");
 let container = document.getElementById("container");
