@@ -58,7 +58,7 @@ img{
     user-select: none;
     font-size: 1.5rem;
     box-shadow: 0 0 10px 5px var(--color1);
-    transition: 0.5s;
+    transition: scale 0.5s;
 }
 
 .link-card:hover{
